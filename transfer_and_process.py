@@ -54,8 +54,8 @@ if __name__ == "__main__":
     
     ssh = ssh_connect(hostname, port, username, password)
     
-    image_folder = "/home/subi/codes/FYP/images"
-    output_folder = "/home/subi/codes/FYP/out"
+    image_folder = "/home/subi/codes/FYP-basic/images"
+    output_folder = "/home/subi/codes/FYP-basic/out"
     
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
